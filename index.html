@@ -112,17 +112,25 @@ IT系の資格は基本情報，応用情報を取得しています．
   <section id="projects" class="projects-section bg-light">
     <div class="container">
         <font size="20">Projects</font>
+
     <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+            <a href="https://github.com/mina-moto/movie_analyzer">
+                <img class="img-fluid" src="img/projects/movie_analyzer.png" alt="">
+            </a>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                <h4 class="text-white">Movie Analyzer</h4>
+                <p class="mb-0 text-white-50">
+                    複数の映画ごとのベクトルを計算してプロットすることで，映画同士の類似度を可視化するWebアプリ．
+                    フロントエンドはReact，サーバーサイドはNode.js，Pythonで開発．
+                    映画ごとのベクトルの算出は，doc2vecを用いて各映画のあらすじのベクトルを求めることで行う．
+                    doc2vecにより得られたベクトルを，PCAにより2次元に次元削減することで，映画同士の類似度を可視化する．
+                </p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -133,14 +141,20 @@ IT系の資格は基本情報，応用情報を取得しています．
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+            <a href="https://github.com/mina-moto/MonsterBox">
+                <img class="img-fluid" src="img/projects/MonsterBox.png" alt="">
+            </a>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                <h4 class="text-white">Monster Box</h4>
+                <p class="mb-0 text-white-50">
+                    不特定多数のユーザでファイルを共有するためのWebアプリ．
+                    JavaのServletを用いて開発．
+                    ユーザはアカウント登録を行うことで，自身のファイルをアップロードすることや，他のユーザがアップしたファイルをダウンロードすることができる．
+                </p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
@@ -148,6 +162,29 @@ IT系の資格は基本情報，応用情報を取得しています．
         </div>
       </div>
 
+      <!-- Project 3 Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+              <a href="https://github.com/mina-moto/CyberAdventure">
+                  <img class="img-fluid" src="img/projects/CyberAdventure.png" alt="">
+              </a>
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Cyber Adventure</h4>
+                  <p class="mb-0 text-white-50">
+                      横スクロール型のアクションゲーム．Javaで開発．
+                      ステージを選択した後，敵を倒す，もしくは避けながらゴールを目指す．
+                      ゴール後，選択したステージやプレイに応じたスコアが表示される．
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
   </section>
 
